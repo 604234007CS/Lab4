@@ -1,3 +1,4 @@
+import { BookEditPage } from './../pages/book-edit/book-edit';
 import { BookdetailPage } from './../pages/bookdetail/bookdetail';
 import { BookListPage } from './../pages/book-list/book-list';
 import { BrowserModule } from '@angular/platform-browser';
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     MyApp,
     HomePage,
     BookListPage,
-    BookdetailPage
+    BookdetailPage,
+    BookEditPage
 
   ],
   imports: [
@@ -30,7 +32,8 @@ import { HttpClientModule } from '@angular/common/http';
     MyApp,
     HomePage,
     BookListPage,
-    BookdetailPage
+    BookdetailPage,
+    BookEditPage
   ],
   providers: [
     StatusBar,
